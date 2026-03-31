@@ -79,4 +79,4 @@ Uses $np.select(conditions, choices)$ to map numerical scores to human-readable 
 
 ---
 
-* **Built By Roy Peters** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Roy%20Peters-blue?logo=linkedin)
+* **Built By Roy Peters** 😁 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Roy%20Peters-blue?logo=linkedin)](https://www.linkedin.com/in/roy-p-74980b382/)
