@@ -1,0 +1,22 @@
+# Python Specific
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+Password_log.log
+*.log
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Editor Specific
+.vscode/
+.idea/
+*.swp

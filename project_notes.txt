@@ -1,0 +1,7 @@
+NumPy handles the password length clipping.
+
+Regex handles the complexity.
+
+Logging records the audit metadata.
+
+CustomTkinter handles the dark-mode visuals.
