@@ -2,7 +2,6 @@ import customtkinter as ctk
 import numpy as np
 import re
 import logging
-from datetime import datetime
 
 # Logging configuration
 logging.basicConfig(
@@ -29,10 +28,14 @@ def analyse_single_password(password: str):
     total_score = length_score + has_digit + has_special + has_upper
 
     # Categorise
-    if total_score <= 5: label = "Very Weak 😱"
-    elif total_score <= 10: label = "Weak 😟"
-    elif total_score <= 15: label = "Moderate 😁"
-    else: label = "Strong 💪🏼"
+    if total_score <= 5: 
+        label = "Very Weak 😱"
+    elif total_score <= 10: 
+        label = "Weak 😟"
+    elif total_score <= 15: 
+        label = "Moderate 😁"
+    else: 
+        label = "Strong 💪🏼"
 
     return total_score, label
 
